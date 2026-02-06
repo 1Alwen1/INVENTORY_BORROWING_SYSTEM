@@ -1,0 +1,90 @@
+/*==========================HEADER*/
+#clockdate{
+	float:right;
+}
+.clockdate-wrapper {
+    background: linear-gradient(to right, #28a745, #20c997);
+    padding:10px;
+    max-width:170px;
+    width:100%;
+    text-align:center;
+    margin:0 0 -2px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+#clock{
+    background-color:#333;
+    font-family: sans-serif;
+    font-size:25px;
+    text-shadow:0px 0px 1px #fff;
+    color:#fff;
+}
+#clock span {
+	color:#888;
+	text-shadow:0px 0px 1px #333;
+	font-size:17px;
+	position:relative;
+	top:-7px;
+}
+#date {
+    font-size:9px;
+    font-family:arial,sans-serif;
+    color:#fff;
+}
+nav.navbar-inverse{
+	height:72px;
+	position:fixed;
+	width:100%;
+	top:0;
+	z-index:999;
+}
+.hederimg{
+	margin-top:15px;
+	margin-left:15px;
+}
+.pagevisit{
+	width:100%;
+	background: linear-gradient(to right, #28a745, #20c997);
+	margin-top:13px;
+	height:30px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.visitcount{
+	text-align:center;
+	color:#ffffb3;
+	font-size:20px;
+	font-weight:bold;
+}
+/*===================================*/
+.input-field{
+	border: 3px solid #28a745;
+	border-radius: 10px;
+	width: 25em;
+	padding: .5em 2em 2em 2em;
+	margin:1em 5em 5em 3em;
+	height:26em;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.qr-field{
+	border: 3px solid #28a745;
+	border-radius: 10px;
+	width: 24em;
+	height:26em;
+	padding: .5em 2em 2em 2em;
+	margin:-31em 3em 5em;
+	float:right;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.myoutput{
+	border: 3px solid #28a745;
+	border-radius: 10px;
+	margin:7em 5em 0em 5em;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+h3{
+	text-align:center;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 20px 0;
+}

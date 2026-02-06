@@ -1,0 +1,51 @@
+.close {
+  float: right;
+  font-size: $close-font-size;
+  font-weight: $close-font-weight;
+  line-height: 1;
+  color: $close-color;
+  text-shadow: $close-text-shadow;
+  opacity: .5;
+
+  // Override the default opacity if the user sets a custom text-shadow
+  @if $close-text-shadow == none {
+    opacity: .5;
+  }
+
+  &:hover,
+  &:focus {
+    color: $close-color;
+    text-decoration: none;
+    opacity: .75;
+  }
+
+  // Opinionated: add "hand" cursor to non-disabled .close elements
+  &:not(:disabled):not(.disabled) {
+    cursor: $cursor-pointer-if-enabled;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+  }
+
+  &:disabled,
+  &.disabled {
+    pointer-events: none;
+    opacity: .25;
+  }
+}
+
+// Additional properties for button version
+// iOS requires the button element instead of an anchor tag.
+// If you want the anchor version, it requires `href="#"`.
+// See https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile
+
+// stylelint-disable property-no-unknown
+button.close {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+// stylelint-enable property-no-unknown
