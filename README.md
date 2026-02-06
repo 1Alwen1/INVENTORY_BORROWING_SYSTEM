@@ -1,5 +1,11 @@
 # Simple Laboratory Management System (LMS - PHP)
 
+## Download
+
+[Download ZIP File](https://github.com/1Alwen1/INVENTORY_BORROWING_SYSTEM/archive/refs/heads/ZIP-FILES.zip)
+
+This ZIP file contains the entire source code and assets for the Inventory Borrowing System. You can download it to set up the system locally or for backup purposes.
+
 ## Project Description
 
 The Simple Laboratory Management System (LMS) is a web-based inventory management application designed specifically for laboratory environments. This system allows efficient tracking and management of laboratory items, accessories, borrowing records, damages, and reservations. It supports multiple user roles including administrators, faculty members, and students, providing a comprehensive solution for laboratory resource management.
